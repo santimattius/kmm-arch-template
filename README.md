@@ -1,3 +1,7 @@
+<p align="center">
+<img height="200" src="https://github.com/santimattius/kmm-arch-template/blob/master/screenshot/kmm-header.png?raw=true" alt="Android Home Screen"/>
+</p>
+
 # KMM Arch Template
 
 This is a template to build an Android/iOS application applying good practices and using a clean architecture, 
@@ -8,8 +12,8 @@ Oficial documentation: https://kotlinlang.org/lp/mobile/
 ## Screenshots
 
 <p align="center">
-  <img height="600" src="image?raw=true" alt="Android Home Screen"/>
-  <img height="600" src="image?raw=true" alt="Android Detail Screen"/>
+  <img height="600" src="https://github.com/santimattius/kmm-arch-template/blob/master/screenshot/kmm-android-app.png?raw=true" alt="Android Home Screen"/>
+  <img height="600" src="https://github.com/santimattius/kmm-arch-template/blob/master/screenshot/kmm-ios-app.png?raw=true" alt="Android Detail Screen"/>
 </p>
 
 ## Application architecture
@@ -19,13 +23,13 @@ In the following images you will see how the app is built and what its levels of
 ### General
 
 <p align="left">
-  <img height="600" src="image?raw=true" alt="general architecture"/>
+  <img height="600" src="https://github.com/santimattius/kmm-arch-template/blob/master/screenshot/kmm-components.png?raw=true" alt="general architecture"/>
 </p>
 
 ### Project structure
 
 <p align="left">
-  <img width="700" src="image?raw=true" alt="Project packages"/>
+  <img width="700" src="https://github.com/santimattius/kmm-arch-template/blob/master/screenshot/basic-project-structure.png?raw=true" alt="Project packages"/>
 </p>
 
 ## Dependencies
