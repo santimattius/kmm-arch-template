@@ -18,7 +18,7 @@ struct PicturesView: View {
             .onAppear{
                 viewModel.loadPictures()
             }
-            .navigationTitle("iOS Arch Template")
+            .navigationTitle("KMM Arch Template")
             .sheet(item: self.$selectedPicture) { picture in
                 SafariView(url:URL(string: picture.link)!)
             }
