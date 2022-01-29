@@ -1,0 +1,23 @@
+CREATE TABLE Picture (
+    id TEXT NOT NULL PRIMARY KEY,
+    author TEXT NOT NULL,
+    width INTEGER NOT NULL,
+    height INTEGER NOT NULL,
+    url TEXT NOT NULL,
+    downloadUrl TEXT NOT NULL
+);
+
+insertPicture:
+INSERT INTO Picture(id, author, width, height, url, downloadUrl)
+VALUES(?, ?, ?, ?, ?, ?);
+
+removeAllPictures:
+DELETE FROM Picture;
+
+selectPictureById:
+SELECT * FROM Picture
+WHERE id = ?;
+
+selectAllPictures:
+SELECT Picture.*
+FROM Picture;
